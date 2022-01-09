@@ -17,7 +17,7 @@ import (
 	"github.com/valyala/fasthttp"
 )
 
-var basedir = flag.String("dir", "./", "files base dir")
+var basedir = flag.String("dir", "./tmp", "files base dir")
 var tmpdir = flag.String("tmpDir", "tmp", "upload tmp dir dir")
 var addr = flag.String("addr", ":8080", "Listen addr:port")
 var debug = flag.Bool("debug", true, "debug switch")

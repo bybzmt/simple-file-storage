@@ -1,3 +1,6 @@
+/src/xx
+/src/tmp/
+/tmp/
 
 #gcc默认输出
 *.out

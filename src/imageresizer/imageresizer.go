@@ -8,9 +8,18 @@ import (
 	"xx/base"
 
 	"github.com/disintegration/imaging"
+	"github.com/valyala/fasthttp"
 	"willnorris.com/go/gifresize"
 
-	"github.com/valyala/fasthttp"
+	_ "github.com/Kagami/go-avif"
+	_ "github.com/biessek/golang-ico"
+	//_ "github.com/jdeng/goheif"
+	_ "github.com/oov/psd"
+	_ "golang.org/x/image/bmp"
+	_ "golang.org/x/image/webp"
+	_ "image/gif"
+	_ "image/jpeg"
+	_ "image/png"
 )
 
 func HttpHandler(ctx *fasthttp.RequestCtx) {
