@@ -1,0 +1,10 @@
+
+#gcc默认输出
+*.out
+
+!.empty
+
+#vim临时文件
+*.swp
+*~
+*.swo
