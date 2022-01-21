@@ -30,6 +30,7 @@ const format_auto = 0
 const format_jpeg = 1
 const format_png = 2
 const format_gif = 3
+const format_avif = 4
 
 var SignatureKey string
 
